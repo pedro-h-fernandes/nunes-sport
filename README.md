@@ -26,7 +26,7 @@ npm run dev
 ### Inicia o banco de dados mockado
 
 ```sh
-npm run dev
+npm run backend
 ```
 
 ### Compila e minifica para produção
