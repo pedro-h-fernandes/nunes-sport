@@ -7,9 +7,9 @@ Para o banco de dados eu utilizei a biblioteca Javascript <strong>json-server</s
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Configuração customizada
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Veja [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
@@ -17,19 +17,25 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compila e recarrega automaticamente no desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Inicia o banco de dados mockado
+
+```sh
+npm run dev
+```
+
+### Compila e minifica para produção
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
