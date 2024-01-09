@@ -1,8 +1,9 @@
 # nunes-sport
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto para uma vaga onde será feito um CRUD de produtos para uma loja fictícia chamada Nunes Sport.
+Para o banco de dados eu utilizei a biblioteca Javascript <strong>json-server</strong> que simula um banco de dados dentro do projeto.
 
-## Recommended IDE Setup
+## Setup de IDE recomendado:
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
