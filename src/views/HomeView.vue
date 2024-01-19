@@ -8,7 +8,7 @@ import ModalCadastro from '@/components/ModalCadastro.vue';
     <h1>NUNES SPORT </h1>
   </header>
   <main class="d-flex justify-content-center">
-    <section class="pt-2">
+    <section class="pt-2 container-fluid">
       <ModalCadastro class="mb-3" />
       <Table />
     </section>
@@ -34,5 +34,12 @@ h1 {
 
 section {
   width: 85vw;
+}
+
+@media screen and  (max-width: 440px){
+  h1 {
+    font-size: 7vw;
+    margin-bottom: 2vh;
+  }
 }
 </style>

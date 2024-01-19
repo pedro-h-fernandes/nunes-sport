@@ -2,7 +2,7 @@
     <section>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-success" data-bs-toggle="modal" :data-bs-target="idComSimbolo">
-            Editar produto 
+            Editar 
         </button>
 
         <!-- Modal -->
@@ -40,6 +40,5 @@ const { idComSimbolo, produtos } = defineProps(['idComSimbolo', 'produtos'])
 //     produtos.value = data
 // }
 </script>
-<style lang="">
-    
+<style scoped>
 </style>

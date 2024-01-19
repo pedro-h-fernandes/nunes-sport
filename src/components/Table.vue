@@ -2,15 +2,15 @@
     <!-- <section v-if="produtos.length <= 0">
         <span>Nenhum produto cadastrado</span>
     </section> -->
-    <section>
-        <table class="table table-responsive table-striped">
+    <section class="container-fluid table-responsive">
+        <table class="table table-striped table-hover">
             <thead>
                 <tr>
                     <th scope="col">Código do produto</th>
                     <th scope="col">Nome</th>
                     <th scope="col">Descrição</th>
                     <th scope="col">Preço</th>
-                    <th scope="col">Ações</th>
+                    <th style="text-align: center;" scope="col">Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,7 +22,7 @@
                     <td>
                         <div id="botoes" class="d-flex">
                             <ModalEdicao :produtos="produtos" :idComSimbolo="retornaTextoIdComSimbolo(produto.id)" />
-                            <button type="button" class="btn mb-3 ms-3 btn-danger" @click="deleteProduto(produto.id)">
+                            <button type="button" class="btn m-3 btn-danger" @click="deleteProduto(produto.id)">
                                 Deletar</button>
                         </div>
                     </td>
@@ -41,8 +41,8 @@ onMounted(async () => {
     await getProdutos()
 })
 
-onUpdated( async () => {
-  await getProdutos()
+onUpdated(async () => {
+    await getProdutos()
 })
 
 const produtos = ref(null)
@@ -68,20 +68,16 @@ const deleteProduto = async (id) => {
 }
 </script>
 <style scoped>
-main {
-    width: 70vw;
+span {
+    color: #fff;
+}
+#botoes {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
-    border-radius: 35%;
-
-}
-
-#botoes {
-    width: fit-content;
-}
-
-span {
-    color: #fff;
+    width: 100%;
 }
 </style>
