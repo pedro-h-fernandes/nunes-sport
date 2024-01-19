@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {
+      "nome": "Tenis Nike",
+      "descricao": "Tenis de corrida Nike Zoom",
+      "preco": "120,90",
+      "id": 1
+    }
+  ]
+}
