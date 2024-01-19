@@ -28,6 +28,7 @@ npm run dev
 ```sh
 npm run backend
 ```
+### Atenção, para funcionar perfeitamente, rode o dev e o backend juntos em terminais diferentes
 
 ### Compila e minifica para produção
 
